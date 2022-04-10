@@ -156,7 +156,7 @@ class _MusicAppState extends State<MusicApp> {
                           primary: const Color.fromARGB(255, 32, 199, 99)),
                       child: const Text(
                         "Baca Cerita",
-                        style: TextStyle(fontSize: 30, fontFamily: "Poppins"),
+                        style: TextStyle(fontSize: 30),
                       )),
                 ),
                 SizedBox(

@@ -36,8 +36,7 @@ class Pendahuluan extends StatelessWidget {
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 30,
-                        color: Colors.white,
-                        fontFamily: "Poppins"),
+                        color: Colors.white),
                   ),
                 )),
             Container(
@@ -48,7 +47,6 @@ class Pendahuluan extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.white,
-                  fontFamily: "Poppins",
                 ),
               ),
             )),

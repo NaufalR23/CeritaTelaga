@@ -39,8 +39,7 @@ class Pendahuluan extends StatelessWidget {
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 50,
-                        color: Colors.white,
-                        fontFamily: "Poppins"),
+                        color: Colors.white),
                   ),
                 )),
             Container(
@@ -55,7 +54,6 @@ Naufal Ramadhani (202410102053)''',
                     style: TextStyle(
                       fontSize: 20,
                       color: Colors.white,
-                      fontFamily: "Poppins",
                     ),
                   ),
                 )),
@@ -79,7 +77,7 @@ Naufal Ramadhani (202410102053)''',
                       primary: const Color.fromARGB(255, 32, 199, 99)),
                   child: const Text(
                     "Selanjutnya",
-                    style: TextStyle(fontSize: 30, fontFamily: "Poppins"),
+                    style: TextStyle(fontSize: 30),
                   )),
             ),
           ],
