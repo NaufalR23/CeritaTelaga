@@ -40,18 +40,19 @@ class Pendahuluan extends StatelessWidget {
                   ),
                 )),
             Container(
+                padding: const EdgeInsets.all(5),
                 child: const Align(
-              child: Text(
-                "Namun, dia merasakan hal aneh di tubuhnya. Jari-jari tangannya mengeluarkan cakar yang sangat besar dan tajam. Perlahan lahan berubah menjadi seekor naga yang besar. Dirumah, Nyai Jalilung juga merasakan panas ditubuhnya. Kemudian dia segera pergi mencari suaminya, saat perjalanan dia mendengar suara naga dan merasa takut. Sampailah Nyai Jalilung ke sumber air di tempat suaminya menjadi naga. Nyai Jalilung sangat terkejut melihat seekor naga besar melingkar di sumber air tersebut. Tiba-tiba Nyai Jalilung juga merasakan hal yang aneh pada tubuhnya. Jari-jarinya pun berubah menjadi cakar yang tajam dan menjadi seekor naga yang besar. Dan kini ada dua naga yang berenang di sumber air tersebut, mereka berenang dengan sangat cepat. Kibasan ekor mereka membuat gempa, pohon-pohon tumbang dan burung-burung di sekitarnya mulai beterbangan karena ketakutan.",
-                textAlign: TextAlign.justify,
-                style: TextStyle(
-                  fontSize: 20,
-                  color: Colors.white,
-                ),
-              ),
-            )),
+                  child: Text(
+                    "Namun, dia merasakan hal aneh di tubuhnya. Jari-jari tangannya mengeluarkan cakar yang sangat besar dan tajam. Perlahan lahan berubah menjadi seekor naga yang besar. Dirumah, Nyai Jalilung juga merasakan panas ditubuhnya. Kemudian dia segera pergi mencari suaminya, saat perjalanan dia mendengar suara naga dan merasa takut. Sampailah Nyai Jalilung ke sumber air di tempat suaminya menjadi naga. Nyai Jalilung sangat terkejut melihat seekor naga besar melingkar di sumber air tersebut. Tiba-tiba Nyai Jalilung juga merasakan hal yang aneh pada tubuhnya. Jari-jarinya pun berubah menjadi cakar yang tajam dan menjadi seekor naga yang besar. Dan kini ada dua naga yang berenang di sumber air tersebut, mereka berenang dengan sangat cepat. Kibasan ekor mereka membuat gempa, pohon-pohon tumbang dan burung-burung di sekitarnya mulai beterbangan karena ketakutan.",
+                    textAlign: TextAlign.justify,
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.white,
+                    ),
+                  ),
+                )),
             Container(
-              padding: const EdgeInsets.all(30),
+              padding: const EdgeInsets.all(10),
               child: ElevatedButton(
                   onPressed: () {
                     Navigator.push(

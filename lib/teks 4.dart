@@ -40,16 +40,40 @@ class Pendahuluan extends StatelessWidget {
                   ),
                 )),
             Container(
+                padding: const EdgeInsets.all(5),
                 child: const Align(
-              child: Text(
-                " Kedua naga berenang mengitari permukaan telaga dengan cepat hingga terbentuk sebuah pulau kecil di tengah-tengahnya. Kemudian naga tersebut menyelam kedalam air dan tidak pernah muncul Kembali. Itulah cerita turun-temurun tentang asal mula terjadinya Telaga Sarangan, sampai sekarang masyarakat sekitar telaga mempercayai bahwa dua ekor tersebut masih ada di dasar telaga. Sarangan adalah istilah masyarakat sekitar untuk menyebut naga. Jadi Telaga Sarangan bisa disebut juga dengan nama Telaga Naga.",
-                textAlign: TextAlign.justify,
-                style: TextStyle(
-                  fontSize: 20,
-                  color: Colors.white,
-                ),
-              ),
-            )),
+                  child: Text(
+                    " Kedua naga berenang mengitari permukaan telaga dengan cepat hingga terbentuk sebuah pulau kecil di tengah-tengahnya. Kemudian naga tersebut menyelam kedalam air dan tidak pernah muncul Kembali. Itulah cerita turun-temurun tentang asal mula terjadinya Telaga Sarangan, sampai sekarang masyarakat sekitar telaga mempercayai bahwa dua ekor tersebut masih ada di dasar telaga. Sarangan adalah istilah masyarakat sekitar untuk menyebut naga. Jadi Telaga Sarangan bisa disebut juga dengan nama Telaga Naga.",
+                    textAlign: TextAlign.justify,
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.white,
+                    ),
+                  ),
+                )),
+            Container(
+              padding: const EdgeInsets.all(10),
+              child: ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (_) {
+                          return const MyApp();
+                        },
+                      ),
+                    );
+                  },
+                  style: ElevatedButton.styleFrom(
+                      minimumSize: const Size(300, 50),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(50)),
+                      primary: const Color.fromARGB(255, 32, 199, 99)),
+                  child: const Text(
+                    "Putar Suara",
+                    style: TextStyle(fontSize: 30),
+                  )),
+            ),
           ],
         )),
       ),

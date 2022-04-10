@@ -2,7 +2,6 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/teks%201.dart';
 import 'package:flutter_application_2/teks.dart';
-import 'package:meta/meta.dart';
 
 void main() {
   runApp(const TeksCerita());
@@ -11,7 +10,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -59,24 +57,20 @@ class _MusicAppState extends State<MusicApp> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     _player = AudioPlayer();
     cache = AudioCache(fixedPlayer: _player);
 
-    // _player.durationHandler = (d) {
-    //   setState(() {
-    //     musicLength = d;
-    //   });
-    // };
-
-    // _player.positionHandler = (p) {
-    //   setState(() {
-    //     position = p;
-    //   });
-    // };
-
-    // cache.load("telaga.mp3");
+    _player.onDurationChanged.listen((Duration dd) {
+      setState(() {
+        musicLength = dd;
+      });
+    });
+    _player.onAudioPositionChanged.listen((Duration dd) {
+      setState(() {
+        position = dd;
+      });
+    });
   }
 
   @override

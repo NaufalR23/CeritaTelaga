@@ -40,19 +40,20 @@ class Pendahuluan extends StatelessWidget {
                   ),
                 )),
             Container(
+                padding: const EdgeInsets.all(5),
                 child: const Align(
-              child: Text(
-                "Telaga Sarangan atau juga dikenal dengan Telaga Naga merupakan danau vulkanik yang terletak di lereng gunung Lawu, Magetan Jawa Timur. Telaga ini menjadi salah satu tempat tujuan wisata yang cukup terkenal di wilayah Magetan dan sekitarnya. Pada zaman dahulu kala, hiduplah sepasang suami istri yang bernama Kyai Jalilung dan Nyai Jalilung. Mereka hidup sederhana dan bahagia di sebuah pondok kecil pada sebuah tebing dan hutan di lereng gunung Lawu yang sejuk. Sehari-hari Kyai Jalilung bercocok tanam jagung disebuah ladang. Dia merasa bahagia karena tanaman jagungnya tumbuh subur. Pada suatu hari sebelum berangkat berladang ia berpamitan kepada istrinya"
-                "Nyi hari ini aku ke ladang untuk membersihkan tanaman yang menutupi jagung kita,"
-                "ucap Kyai Jalilung. Lalu istrinya pun menjawab,"
-                "Iya Ki, hati-hati di ladang, jangan pulang terlalu sore.",
-                textAlign: TextAlign.justify,
-                style: TextStyle(
-                  fontSize: 20,
-                  color: Colors.white,
-                ),
-              ),
-            )),
+                  child: Text(
+                    "Telaga Sarangan atau juga dikenal dengan Telaga Naga merupakan danau vulkanik yang terletak di lereng gunung Lawu, Magetan Jawa Timur. Telaga ini menjadi salah satu tempat tujuan wisata yang cukup terkenal di wilayah Magetan dan sekitarnya. Pada zaman dahulu kala, hiduplah sepasang suami istri yang bernama Kyai Jalilung dan Nyai Jalilung. Mereka hidup sederhana dan bahagia di sebuah pondok kecil pada sebuah tebing dan hutan di lereng gunung Lawu yang sejuk. Sehari-hari Kyai Jalilung bercocok tanam jagung disebuah ladang. Dia merasa bahagia karena tanaman jagungnya tumbuh subur. Pada suatu hari sebelum berangkat berladang ia berpamitan kepada istrinya"
+                    "Nyi hari ini aku ke ladang untuk membersihkan tanaman yang menutupi jagung kita,"
+                    "ucap Kyai Jalilung. Lalu istrinya pun menjawab,"
+                    "Iya Ki, hati-hati di ladang, jangan pulang terlalu sore.",
+                    textAlign: TextAlign.justify,
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.white,
+                    ),
+                  ),
+                )),
             Container(
               padding: const EdgeInsets.all(20),
               child: ElevatedButton(

@@ -29,7 +29,7 @@ class Pendahuluan extends StatelessWidget {
               child: Image.asset('assets/telaga.jpg'),
             ),
             Container(
-                padding: const EdgeInsets.all(30),
+                padding: const EdgeInsets.all(23),
                 alignment: Alignment.center,
                 child: const Align(
                   alignment: Alignment.center,
@@ -47,6 +47,7 @@ class Pendahuluan extends StatelessWidget {
                 child: const Align(
                   child: Text(
                     '''
+Chintyana Martin (202410102004)
 Laili Cahyani (202410102013)
 Moh. Juleo Rahardian Anugrah (202410102049)
 Naufal Ramadhani (202410102053)''',
@@ -58,7 +59,7 @@ Naufal Ramadhani (202410102053)''',
                   ),
                 )),
             Container(
-              padding: const EdgeInsets.all(50),
+              padding: const EdgeInsets.all(40),
               child: ElevatedButton(
                   onPressed: () {
                     Navigator.push(

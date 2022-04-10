@@ -40,25 +40,26 @@ class Pendahuluan extends StatelessWidget {
                   ),
                 )),
             Container(
+                padding: const EdgeInsets.all(5),
                 child: const Align(
-              child: Text(
-                "Kyai Jalilung selalu bekerja dengan giat merawat ladang. Tiba-tiba Kyai Jalilung menemukan sebuah telur berwarna putih keemasan yang sangat besar di bawah pohon. "
-                "Hah, telur apa ini ya? Sebaiknya aku bawa pulang saja,"
-                "kata Kyai Jalilung Sesampainya di rumah, istrinya pun juga kebingungan."
-                "Ini telur apa Ki?"
-                "tanya Nyai Jalilung. Kyai Jalilung pun menjawab,"
-                "Entahlah aku juga tidak tahu, aku kira kamu tau dengan telur ini. Makanya aku bawa pulang telur itu."
-                "Nyai Jalilung pun berkata,"
-                "Aku juga baru tahu telur sebesar ini,"
-                "kebetulan kita tidak ada makanan di rumah. Telur ini kita rebus saja."
-                "Setelah selesai makan, Kyai Jalilung kembali ke ladang, di perjalanan menuju ladang Kyai Jalilung merasakan tubuhnya panas dan kehausan. Dia pun mulai mencari sumber air untuk diminum. Setelah meminum air yang dicari, dia pun merasa segar kembali.",
-                textAlign: TextAlign.justify,
-                style: TextStyle(
-                  fontSize: 20,
-                  color: Colors.white,
-                ),
-              ),
-            )),
+                  child: Text(
+                    "Kyai Jalilung selalu bekerja dengan giat merawat ladang. Tiba-tiba Kyai Jalilung menemukan sebuah telur berwarna putih keemasan yang sangat besar di bawah pohon. "
+                    "Hah, telur apa ini ya? Sebaiknya aku bawa pulang saja,"
+                    "kata Kyai Jalilung Sesampainya di rumah, istrinya pun juga kebingungan."
+                    "Ini telur apa Ki?"
+                    "tanya Nyai Jalilung. Kyai Jalilung pun menjawab,"
+                    "Entahlah aku juga tidak tahu, aku kira kamu tau dengan telur ini. Makanya aku bawa pulang telur itu."
+                    "Nyai Jalilung pun berkata,"
+                    "Aku juga baru tahu telur sebesar ini,"
+                    "kebetulan kita tidak ada makanan di rumah. Telur ini kita rebus saja."
+                    "Setelah selesai makan, Kyai Jalilung kembali ke ladang, di perjalanan menuju ladang Kyai Jalilung merasakan tubuhnya panas dan kehausan. Dia pun mulai mencari sumber air untuk diminum. Setelah meminum air yang dicari, dia pun merasa segar kembali.",
+                    textAlign: TextAlign.justify,
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.white,
+                    ),
+                  ),
+                )),
             Container(
               padding: const EdgeInsets.all(20),
               child: ElevatedButton(
